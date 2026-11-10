@@ -1,0 +1,7 @@
+<h2>Editar cuenta</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ formulario.as_p }}
+    <button type="submit">Actualizar</button>
+</form>
